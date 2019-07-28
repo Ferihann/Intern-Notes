@@ -58,21 +58,9 @@ Unsupervised Learningde classification algoritmaları kullanılır.
     - Hypothesis : Bizim regresyon fonksiyonumuz
     - Cost Function : Hipotezimizin ne kadar doğru sonuç verdiğini hesaplar.
 
-Amacımız cost fonksiyonunun değerini en aza indirgemek bunun için de gradient descend algoritmasını kullanacağız.
+    - Amacımız cost fonksiyonunun değerini en aza indirgemek bunun için de gradient descend algoritmasını kullanacağız.
 
-  - **Gradient Descend Algorithm** 
-
-      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2018-15-20.png)
-   
-      - Cost fonksiyonunun theataya göre kısmi türevi alınır.Burdaki amaç türev ile adım adım fonksiyonun en küçük noktasını bulmaya 
-  çalışmaktır.θ'yı konverge olana kadar günceller.(Minimumu bulur.)
-      - Fonksiyon konverge ettiği noktada en küçük değerini alır.
-      - Alpha (α) : öğrenme oranı , α çok küçük olursa θ fonksiyonun başlangıç noktasından yavaşça iner. Eğer α çok büyük olursa da 
-  θ hiç konverge olmayabilir . Bu durumda algoritma başarısız olmuş olur.
-
-      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2018-23-40.png)
-
-      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2019-17-53.png)
+ 
 
 
 
