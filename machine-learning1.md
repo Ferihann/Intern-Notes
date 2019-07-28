@@ -88,9 +88,13 @@ Amacımız cost fonksiyonunun değerini en aza indirgemek bunun için de gradien
 Kaynakça : 
 
 https://medium.com/@fahrettinf/4-1-yapay-zeka-algoritmalar%C4%B1-fd64b8080748
+
 http://firatdemirel.com/makine-ogrenmesi/
+
 https://medium.com/deep-learning-turkiye/makine-%C3%B6%C4%9Frenmesi-e%C4%9Flencelidir-b9d50aad3a62
+
 https://medium.com/@wintermute_/reinforcement-learning-peki%C5%9Ftirmeli-%C3%B6%C4%9Frenme-i%CC%87nsan-beyniyle-aradaki-fark-kapan%C4%B1rken-c0d0a6f7c2e8
+
 https://d3c33hcgiwev3.cloudfront.net/_ec21cea314b2ac7d9e627706501b5baa_Lecture2.pdf?Expires=1564444800&Signature=U7Ox8KnX1CveFHH9bUgnMVT4WfyA7-1K7aP3WdbP9iJaf8fj8tT3L3iL84gnnf~5CGy0z5cfxgvLyoK5HZb0tuzledoIuavNsto3A8mINU-6eqvIhIDv0cEeFnvXpv~sj~jFXCQoG9och0d8YTbjl0DLNuOJwp~Lr6NOVSLk66M_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 
 
