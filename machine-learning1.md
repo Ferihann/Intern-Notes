@@ -60,7 +60,29 @@ Unsupervised Learningde classification algoritmaları kullanılır.
 
     - Amacımız cost fonksiyonunun değerini en aza indirgemek bunun için de gradient descend algoritmasını kullanacağız.
 
- 
+ **Linear Regression with Multiple Variable**
+
+- Hipotez fonksiyonumuz değişti.Gradient descend metodunu şimdi multiple variable için uygulayacağız.
+    - **Feature Scaling** , fonksiyonda kullanacağımız featurelar benzer aralıklarda olmalı .Bunu yaparken de mean normalization
+    yönteminden faydalanabiliriz .
+    
+    - Mean Normalization : 
+    
+      ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2019-33-31.png)
+      
+    - **Gradient Descend Algorithm** 
+
+      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2018-15-20.png)
+   
+      - Cost fonksiyonunun theataya göre kısmi türevi alınır.Burdaki amaç türev ile adım adım fonksiyonun en küçük noktasını bulmaya 
+  çalışmaktır.θ'yı konverge olana kadar günceller.(Minimumu bulur.)
+      - Fonksiyon konverge ettiği noktada en küçük değerini alır.
+      - Alpha (α) : öğrenme oranı , α çok küçük olursa θ fonksiyonun başlangıç noktasından yavaşça iner. Eğer α çok büyük olursa da 
+  θ hiç konverge olmayabilir . Bu durumda algoritma başarısız olmuş olur.
+
+      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2018-23-40.png)
+
+      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2019-17-53.png)
 
 
 
