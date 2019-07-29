@@ -5,23 +5,11 @@ paradigmasıdır.
 
 - **Supervised Learning(Gözetimli Öğrenme)**
 
-Problemdeki her bir datanın kendine ait özelliklerini biliyoruz ve buradan yola çıkarak geriye doğru bir mantık oluşturmaya 
-çalışıyoruz. Her bir dataya ait veriler ile öğrenme algoritmamız besliyoruz ve algoritma bu veriler arasında nasıl 
-bir matematik gerektiğini çözmeye çalışıyor.
-
-    Örnek: 2  4  5 = 3
-           5  2  8 = 2 aralarındaki matematik sembollerini bulmaya çalışmak
-        
-`Supervised Learning de regression algoritmaları kullanılır.`
+  Eğitim verileri üzerinden bir fonksiyon üreten bir makine öğrenmesi tekniğidir. Başka bir deyişle, bu öğrenme tekniğinde girdilerle (işaretlenmiş veri –  labelled data) ile istenen çıktılar arasında eşleme yapan bir fonksiyon üretir. Eğitim verisi hem girdilerden hem çıktılardan oluşur. Fonksiyon, sınıflandırma (classifiction) veya eğri uydurma (regression) algoritmaları ile belirlenebilir.
 
 - **Unsupervised Learning**
 
-Elimizde özellik dataları var fakat bu özellik datalarının neye ait olduğu belli değil.
-
-    Örnek: Biri size bir kağıtta sayı listesi veriyor ve bu sayıların ne ifade ettiğini bilmiyorum ama belki 
-    sen burada bir düzen veya grup bulabilirsin.
-    
-Unsupervised Learningde classification algoritmaları kullanılır.
+Bu yöntemde işaretlenmemiş (unlabelled) veri üzerinden bilinmeyen bir yapıyı tahmin etmek için bir fonksiyon kullanan makine öğrenmesi tekniğidir. Burada girdi verisinin hangi sınıfa ait olduğu belirsizdir.
 
 
 - **Reinforcement Learning**
@@ -39,6 +27,8 @@ Unsupervised Learningde classification algoritmaları kullanılır.
 **Makine Öğrenmesi Algoritmaları**
 
 ![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2016-43-24.png)
+
+**SUPERVISED LEARNING ALGORITHMS**
 
 - **Lineer Regression**
 
@@ -62,8 +52,7 @@ Unsupervised Learningde classification algoritmaları kullanılır.
 
  **Linear Regression with Multiple Variable**
 
-- Hipotez fonksiyonumuz değişti.Gradient descend metodunu şimdi multiple variable için uygulayacağız.
-    - **Feature Scaling** , fonksiyonda kullanacağımız featurelar benzer aralıklarda olmalı .Bunu yaparken de mean normalization
+ - **Feature Scaling** , fonksiyonda kullanacağımız featurelar benzer aralıklarda olmalı .Bunu yaparken de mean normalization
     yönteminden faydalanabiliriz .
     
     - Mean Normalization : 
@@ -97,6 +86,8 @@ Unsupervised Learningde classification algoritmaları kullanılır.
 
 
 Kaynakça : 
+
+https://www.e-adys.com/makine_ogrenmesi/hangisini-secmeliyim-supervised-ve-unsupervised-learning/
 
 https://www.kizgibikodla.com/news/yeni-baslayanlar-icin-adan-zye-makine-ogrenmesi/
 
