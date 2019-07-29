@@ -35,6 +35,7 @@ verir.
 **Cost Function**
 
 ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2022-49-05.png)
+![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-29%2010-24-54.png)
 
 ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2022-39-27.png)
 ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2022-51-48.png)
