@@ -28,10 +28,26 @@ C4.5)
   - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-29%2011-23-17.png)
   - En fazla kazanç getiren kök düğüm olmaya hak kazanır.
 - CART Karar Ağacı :Ağacın temel prensibi herbir düğümde ağacı iki dala ayırmasıdır. 
-  
-       Overfitting probleminde model çalıştığımız veri seti üzerinde harika sonuçlar verir 
+
+
+       OVERFITTING(high variance) : Overfitting probleminde model çalıştığımız veri seti üzerinde harika sonuçlar verir 
        (training error düşük) fakat hiç görmediği yeni veri setleri üzerinde başarısız 
        tahminler yapar. (test error yüksek)
+       
+       
+       UNDERFITTING(high bias) : Diğer bir deyişle eğer modelimizi eğitim (training) veri seti üzerinde çok basit olarak
+       kurguladıysak hiç görmediğimiz test verisi üzerinde başarısız tahminler (sallama) 
+       yaparız ve gerçek değerle tahmin ettiğimiz değer arasındaki fark çok olur.
+       
+       
+ Bu problemleri nasıl çözebiliriz ?
+    
+ **Validasyon** : Sınava girmeden önce arşiv sorularının (training data) bir kısmına diyelim ki %20'sine hiç bakmayıp (validation data) sanki gerçekten sınava giriyormuş gibi kendimizi denemeye validasyon metodu diyoruz. Bu methodun 2 sakıncası var.
+Bütün veri eğitim sürecinden geçmiyor bir kısmı validasyona ayrılıyor bu senaryoda eksik veri underfitting problemine sebep olabilir.(verideki bazı patternler trendler gözden kaçabilir.)
+Eğitimden geçen veri iyi bir örneklem olmayabilir.
+
+  - 2.deney için veri setinin farklı bir yüzde 20'lik kısmını test için yüzde 80'lik kısmını eğitim için ayırıyoruz ve bu prosedürü 3. 4. 5. deneyler için de gerçekleştiriyoruz. Günün sonunda modellerin başarı oranlarının ortalamasını alıyoruz.
+  - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-29%2017-00-06.png)
   
 **Naïve Bayes**
 
@@ -55,7 +71,9 @@ Bunun için karar sınırları yada diğer bir ifadeyle hiper düzlemler belirle
       3)Hiçbir parametre almayan ( nonparametric ) bir sınıflayıcıdır. 
       4)SVM aynı zamanda doğrusal ve doğrusal olmayan verileride sınıflandırabilir ancak 
       genellikle verileri doğrusal olarak sınıflandırmaya çalışır.
-      
+
+
+
 - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-29%2010-10-20.png)
 - SVM günümüzde yüz tanıma sistemlerinden, ses analizine kadar birçok sınıflandırma probleminde kullanılmaktadırlar.
 - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-29%2015-00-47.png)
@@ -95,6 +113,8 @@ Confusion Matris :
 
 Kaynakça : 
 
+https://medium.com/data-science-tr/overfitting-underfitting-cross-validation-b47dfda0cf4e
+
 https://medium.com/@ekrem.hatipoglu/machine-learning-classification-logistic-regression-part-8-b77d2a61aae1
 
 https://medium.com/@k.ulgen90/makine-%C3%B6%C4%9Frenimi-b%C3%B6l%C3%BCm-4-destek-vekt%C3%B6r-makineleri-2f8010824054
@@ -106,3 +126,5 @@ http://bmb.cu.edu.tr/uorhan/DersNotu/Ders03.pdf
 https://medium.com/@k.ulgen90/makine-%C3%B6%C4%9Frenimi-b%C3%B6l%C3%BCm-2-6d6d120a18e1
 
 https://medium.com/@k.ulgen90/makine-%C3%B6%C4%9Frenimi-b%C3%B6l%C3%BCm-5-karar-a%C4%9Fa%C3%A7lar%C4%B1-c90bd7593010
+
+https://medium.com/data-science-tr/overfitting-underfitting-cross-validation-b47dfda0cf4e
