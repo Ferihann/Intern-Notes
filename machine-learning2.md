@@ -12,6 +12,14 @@ Sınıfının belirli olmadığı test verilerini sınıflandırmaya çalışır
 
 ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2022-21-12.png)
 ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2023-05-38.png)
+
+**CLASSSIFICATION ALGORITHMS**
+  - Bayes Rule
+  - Decision Tree
+  - KNN 
+  - Logistic Regression
+  - Support Vector Machines
+  
 **Logistic Regression**
 
 - Lojistik regresyon sınıflandırma problemlerinde çok kullanılan, endüstride ciddi karşılığı olan modellerin başında gelir.
