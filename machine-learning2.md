@@ -66,6 +66,8 @@ Bir veri birden fazla sınıfla ilişkilendirilebilir. Örneğin, Bir makale hem
 
 Kaynakça :
 
+https://stanford.edu/~shervine/l/tr/teaching/cs-229/cheatsheet-supervised-learning
+
 https://www.kizgibikodla.com/news/yeni-baslayanlar-icin-adan-zye-makine-ogrenmesi/
 
 https://d3c33hcgiwev3.cloudfront.net/_964b8d77dc0ee6fd42ac7d8a70c4ffa1_Lecture6.pdf?Expires=1564444800&Signature=A8RS6kqnoZc2rNfNOFS~vvQ5xdwDkTXIfGqkHGw1~5HvjuBFGvMBZ4nF0PzUP0BXcbkVKYzgAT7ArxQPGhnkyBZJihBROLmgIALYmUPdW~VGVi9KLwWJILnVWaS-IF~VyA8nrxhTd3gbXUWs6FhHU03CuKmBgclNmuJ49fDO6HU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
