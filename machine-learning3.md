@@ -27,8 +27,11 @@ C4.5)
   - ID3 algoritmasında sistemin genel entropisinin hesaplanmasının ardından her bir özniteliğin entropisi de ayrı ayrı hesaplanır. Hesaplanan entropi değerleri, genel entropiden çıkartılarak; hangi özniteliğin entropi değerini en çok azalttığı tespit edilir.
   - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-29%2011-23-17.png)
   - En fazla kazanç getiren kök düğüm olmaya hak kazanır.
-- CART Karar Ağacı :
-  - CART karar ağaçlarının temel prensibi herbir düğümde ağacı iki dala ayırmasıdır. 
+- CART Karar Ağacı :Ağacın temel prensibi herbir düğümde ağacı iki dala ayırmasıdır. 
+  
+       Overfitting probleminde model çalıştığımız veri seti üzerinde harika sonuçlar verir 
+       (training error düşük) fakat hiç görmediği yeni veri setleri üzerinde başarısız 
+       tahminler yapar. (test error yüksek)
   
 **Naïve Bayes**
 
@@ -52,6 +55,7 @@ Bunun için karar sınırları yada diğer bir ifadeyle hiper düzlemler belirle
       3)Hiçbir parametre almayan ( nonparametric ) bir sınıflayıcıdır. 
       4)SVM aynı zamanda doğrusal ve doğrusal olmayan verileride sınıflandırabilir ancak 
       genellikle verileri doğrusal olarak sınıflandırmaya çalışır.
+      
 - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-29%2010-10-20.png)
 - SVM günümüzde yüz tanıma sistemlerinden, ses analizine kadar birçok sınıflandırma probleminde kullanılmaktadırlar.
 - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-29%2015-00-47.png)
