@@ -85,7 +85,8 @@ Unsupervised Learningde classification algoritmaları kullanılır.
       - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2019-17-53.png)
 
 
-
+- Birden fazla tahminleyici (predictor) değişken kullanarak tahminlemeye çalışılır.
+- **Polynomial Regression:**  Veriler arası ilişki her zaman doğrusal olmayabilir. Optimum ilişkiyi bulmak için bir eğri gerekebilir. Tıpkı polinom fonksiyonlarında olduğu gibi bu yöntemde de bir terimin karesi veya küpü(veya terimin üssü herhangi bir sayı olabilir) alınarak doğrusal olmayan bir regresyon modeli oluşturulmak istenebilir. Bu gibi durumlarda kullanılabilen bir algoritmadır.
 
 
 
@@ -96,6 +97,8 @@ Unsupervised Learningde classification algoritmaları kullanılır.
 
 
 Kaynakça : 
+
+https://www.kizgibikodla.com/news/yeni-baslayanlar-icin-adan-zye-makine-ogrenmesi/
 
 https://medium.com/@fahrettinf/4-1-yapay-zeka-algoritmalar%C4%B1-fd64b8080748
 
