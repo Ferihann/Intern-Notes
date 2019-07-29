@@ -39,8 +39,8 @@ verir.
 
 ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2023-06-00.png)
 
-
-
+**Multi Label Classification**: 
+Bir veri birden fazla sınıfla ilişkilendirilebilir. Örneğin, Bir makale hem sağlık hem spor hem de insan ile ilgili olabilir.
 
 
 
@@ -56,6 +56,8 @@ verir.
 
 
 Kaynakça :
+
+https://www.kizgibikodla.com/news/yeni-baslayanlar-icin-adan-zye-makine-ogrenmesi/
 
 https://d3c33hcgiwev3.cloudfront.net/_964b8d77dc0ee6fd42ac7d8a70c4ffa1_Lecture6.pdf?Expires=1564444800&Signature=A8RS6kqnoZc2rNfNOFS~vvQ5xdwDkTXIfGqkHGw1~5HvjuBFGvMBZ4nF0PzUP0BXcbkVKYzgAT7ArxQPGhnkyBZJihBROLmgIALYmUPdW~VGVi9KLwWJILnVWaS-IF~VyA8nrxhTd3gbXUWs6FhHU03CuKmBgclNmuJ49fDO6HU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 
