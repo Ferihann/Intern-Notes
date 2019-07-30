@@ -93,12 +93,25 @@ Confusion Matris :
       Precision : TP / (FP + TP)
       Prevalance : (FN + TP)/ Toplam
 
+**Random Forest Algorithm**
 
+![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-30%2011-21-39.png)
 
+-  Karar ağaçlarının en büyük problemlerinden biri aşırı öğrenme-veriyi ezberlemedir (overfitting). Rassal orman modeli bu problemi çözmek için hem veri setinden hem de öznitelik setinden rassal olarak 10'larca 100'lerce farklı alt-setler seçiyor ve bunları eğitiyor. 
 
+-  Bu yöntemle 100'lerce karar ağacı oluşturuluyor ve her bir karar ağacı bireysel olarak tahminde bulunuyor. Günün sonunda problemimiz regresyonsa karar ağaçlarının tahminlerinin ortalamasını problemimiz sınıflandırmaysa tahminler arasında en çok oy alanı seçiyoruz.
 
+- Rassal orman modelinde farklı veri setleri üzerinde eğitim gerçekleştiği için varyans, diğer bir deyişle karar ağaçlarının en büyük problemlerinden olan overfitting azalır. Ayrıca bootstrap yöntemiyle oluşturduğumuz alt-veri kümelerinde outlier bulunma şansını da düşürmüş oluruz.
 
+- k tane örnek eğitim setinden rasgele seçilir.
 
+- k tane Decision Tree oluşturulur ve her node için:
+
+- Rasgele d tane özellik  yenisiyle değiştirilmeden seçilir.
+ En iyi bölünmeyi sağlayan özelliği kullanarak düğüm bölünür. Örneğin, bilgi kazancını en üst düzeye çıkararak.(information gain)
+- 1.ve 2. adımlar k defa tekrar edilir.
+
+- Elde edilen sonuçlar birleştirerek, çoğunlukta olan tahmin kazanır.
 
 
 
