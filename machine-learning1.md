@@ -37,6 +37,10 @@ Bu yöntemde işaretlenmemiş (unlabelled) veri üzerinden bilinmeyen bir yapıy
   - **Regression line :** Noktaların tamamına en yakın geçen doğru
 
   Regression ile gerçek değere yakın output tahmin edilmeye çalışılır.
+  
+ Ordinary least sequeres : 
+ 
+ Yöntem, her nokta ile çizginin korelasyonlu (en yakın) noktası arasındaki mesafelerin karelerinin toplamını dikkate alarak minimum sonucu bulana kadar sürekli olarak birçok çizgi oluşturuyor.
 
   - **Regression function :**   
      ![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2016-56-11.png)
