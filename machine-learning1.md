@@ -22,17 +22,17 @@ Bu yöntemde işaretlenmemiş (unlabelled) veri üzerinden bilinmeyen bir yapıy
   yapay zekâ kendisi öğreniyor.
 
 
-![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2014-16-04.png)
+![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2014-16-04.png)
 
 **Makine Öğrenmesi Algoritmaları**
 
-![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2016-43-24.png)
+![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2016-43-24.png)
 
 **SUPERVISED LEARNING ALGORITHMS**
 
 - **Lineer Regression**
 
-   ![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2019-14-34.png)
+   ![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2019-14-34.png)
 
   - **Regression line :** Noktaların tamamına en yakın geçen doğru
 
@@ -43,11 +43,11 @@ Bu yöntemde işaretlenmemiş (unlabelled) veri üzerinden bilinmeyen bir yapıy
  Yöntem, her nokta ile çizginin korelasyonlu (en yakın) noktası arasındaki mesafelerin karelerinin toplamını dikkate alarak minimum sonucu bulana kadar sürekli olarak birçok çizgi oluşturuyor.
 
   - **Regression function :**   
-     ![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2016-56-11.png)
+     ![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2016-56-11.png)
 
   - **Loss Function(Cost Function , Objective Function) :**
 
-    - ![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2018-08-32.png)
+    - ![Alt text](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2018-08-32.png)
 
     - Hypothesis : Bizim regresyon fonksiyonumuz
     - Cost Function : Hipotezimizin ne kadar doğru sonuç verdiğini hesaplar.
@@ -61,11 +61,11 @@ Bu yöntemde işaretlenmemiş (unlabelled) veri üzerinden bilinmeyen bir yapıy
     
     - Mean Normalization : 
     
-      ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2019-33-31.png)
+      ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2019-33-31.png)
       
     - **Gradient Descend Algorithm** 
 
-      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2018-15-20.png)
+      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2018-15-20.png)
    
       - Cost fonksiyonunun theataya göre kısmi türevi alınır.Burdaki amaç türev ile adım adım fonksiyonun en küçük noktasını bulmaya 
   çalışmaktır.θ'yı konverge olana kadar günceller.(Minimumu bulur.)
@@ -73,9 +73,9 @@ Bu yöntemde işaretlenmemiş (unlabelled) veri üzerinden bilinmeyen bir yapıy
       - Alpha (α) : öğrenme oranı , α çok küçük olursa θ fonksiyonun başlangıç noktasından yavaşça iner. Eğer α çok büyük olursa da 
   θ hiç konverge olmayabilir . Bu durumda algoritma başarısız olmuş olur.
 
-      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2018-23-40.png)
+      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2018-23-40.png)
 
-      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/Screenshot%20from%202019-07-28%2019-17-53.png)
+      - ![](https://github.com/Ferihann/Intern-Notes/blob/master/screenshots/Screenshot%20from%202019-07-28%2019-17-53.png)
 
 
 - Birden fazla tahminleyici (predictor) değişken kullanarak tahminlemeye çalışılır.
